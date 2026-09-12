@@ -53,7 +53,7 @@ export const ProductsView: React.FC = () => {
     lotNumber: '',
     expirationDate: '',
     isScaleProduct: false,
-    taxPercent: 15,
+    taxPercent: 0,
     status: 'active',
   });
 

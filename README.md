@@ -102,4 +102,10 @@ lib/
 
 ---
 
+## 🛠️ Personalización y Desarrollo a Medida
+
+Si quieres que agregue o personalice funciones exclusivas para tu negocio, contáctame a mi correo: **ing.chacon.maxwell@gmail.com**. Te hago el presupuesto y ¡manos a la obra! Además, si necesitas la versión instalable `.exe` para Windows, te la proporciono lista para usar.
+
+---
+
 © 2026 Maxwell Chacón. Todos los derechos reservados.

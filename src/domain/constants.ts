@@ -53,7 +53,7 @@ export const DEFAULT_BUSINESS_CONFIG: BusinessConfig = {
   currencySymbol: 'C$',
   currencyName: 'Córdobas (NIO)',
   exchangeRateUsd: 36.62,
-  taxRatePercent: 15,
+  taxRatePercent: 0,
   logoUrl: '',
   invoiceSeries: 'FAC-01',
   resolutionNumber: 'DGI-RESOL-2026-004582',
