@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#10b981" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Squircle -->
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="url(#bgGrad)" stroke="#334155" stroke-width="6" />
+
+  <!-- Inner Subtle Ring -->
+  <rect x="36" y="36" width="440" height="440" rx="96" fill="none" stroke="url(#accentGrad)" stroke-width="2" opacity="0.4" />
+
+  <!-- Stylized POS Register / Receipt Shield -->
+  <g filter="url(#glow)">
+    <!-- Base Register Tray -->
+    <path d="M 120 330 L 392 330 C 408 330 420 342 416 358 L 400 410 C 396 422 384 430 370 430 L 142 430 C 128 430 116 422 112 410 L 96 358 C 92 342 104 330 120 330 Z" fill="#1e293b" stroke="url(#accentGrad)" stroke-width="8" />
+
+    <!-- Cash drawer slot -->
+    <rect x="190" y="380" width="132" height="12" rx="6" fill="url(#accentGrad)" />
+
+    <!-- Terminal Display / Upper Shield -->
+    <rect x="130" y="100" width="252" height="200" rx="32" fill="#0f172a" stroke="url(#accentGrad)" stroke-width="8" />
+
+    <!-- Screen Inner Display -->
+    <rect x="150" y="120" width="212" height="130" rx="18" fill="#020617" />
+
+    <!-- Receipt paper emerging from top -->
+    <path d="M 190 70 L 322 70 L 322 100 L 190 100 Z" fill="#f8fafc" rx="4" />
+    <path d="M 190 70 L 206 58 L 222 70 L 238 58 L 254 70 L 270 58 L 286 70 L 302 58 L 322 70" stroke="#f8fafc" stroke-width="8" fill="#f8fafc" stroke-linejoin="round" />
+
+    <!-- Barcode lines on receipt / screen -->
+    <line x1="175" y1="150" x2="175" y2="200" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" />
+    <line x1="190" y1="150" x2="190" y2="200" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+    <line x1="202" y1="150" x2="202" y2="200" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" />
+    <line x1="220" y1="150" x2="220" y2="200" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" />
+    <line x1="232" y1="150" x2="232" y2="200" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" />
+    <line x1="246" y1="150" x2="246" y2="200" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Modern "E" Monogram for Essensse with lightning energy -->
+    <path d="M 280 145 L 335 145 C 342 145 348 151 348 158 C 348 165 342 171 335 171 L 300 171 L 328 171 C 335 171 340 176 340 183 C 340 190 335 195 328 195 L 300 195 L 338 195 C 345 195 350 201 350 208 C 350 215 345 221 338 221 L 275 221 C 268 221 262 215 262 208 L 262 158 C 262 151 268 145 275 145 Z" fill="url(#accentGrad)" />
+
+    <!-- Currency Symbol badge (C$) -->
+    <circle cx="340" cy="270" r="28" fill="url(#goldGrad)" stroke="#1e1b4b" stroke-width="4" />
+    <text x="340" y="278" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="20" fill="#0f172a" text-anchor="middle">C$</text>
+
+    <!-- Scanner Laser Beam -->
+    <line x1="120" y1="290" x2="392" y2="290" stroke="#10b981" stroke-width="4" stroke-dasharray="12 8" opacity="0.85" />
+  </g>
+</svg>

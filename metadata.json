@@ -1,0 +1,6 @@
+{
+  "name": "Essensse PosVentas",
+  "description": "Sistema integral de facturación, punto de venta, control de inventario en tiempo real, kardex, multimoneda C$, hardware fiscal, balanza, escáner e impresión de tickets y etiquetas. Creado por Maxwell Chacón - Granada Nicaragua. Ced. 201290495000A.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
