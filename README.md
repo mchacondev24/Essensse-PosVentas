@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="public/banner.svg" alt="Essensse POS Banner" width="100%" />
+</div>
+
 # Essensse PosVentas — Sistema de Facturación, Inventarios & Punto de Venta (Clean Architecture)
 
 > **Propiedad Intelectual & Licencia:**  
