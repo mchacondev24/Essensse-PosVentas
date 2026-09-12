@@ -44,9 +44,9 @@ export const DEVELOPER_INFO = {
 export const DEFAULT_BUSINESS_CONFIG: BusinessConfig = {
   name: 'Comercial & Distribuidora La Excelencia',
   commercialName: 'La Excelencia S.A.',
-  taxId: 'J0310000123456',
+  taxId: 'A000000000000',
   email: 'ventas@laexcelencia.com',
-  phone: '+505 8888-9999 / 2222-3333',
+  phone: '00000000',
   address: 'Rotonda Metrocentro 2 cuadras al norte, Módulo B-12',
   city: 'Managua',
   country: 'Nicaragua',
